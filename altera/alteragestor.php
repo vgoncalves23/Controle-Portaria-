@@ -8,7 +8,7 @@ $id = intval($_GET['id']);
 //Enquanto tiver postagem faça 
 if(count($_POST) > 0) {
     
-    include('conexao.php');
+    include('../conexoes/conexao.php');
     
     
     $erro = false;
