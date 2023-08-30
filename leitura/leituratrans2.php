@@ -1,6 +1,6 @@
 <?php 
 //Conectando o banco de dados
-include('conexao3.php');
+include('../conexoes/conexao3.php');
 
 $nome = $_POST['pesquisar'];
 $cnpj = $_POST['cnpj'];

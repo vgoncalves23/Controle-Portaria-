@@ -20,7 +20,7 @@ $num_clientes = $query_clientes->num_rows;
     <p>
         
         <br>
-        <a href="login.html">TELA INICIAL</a>
+        <a href="../login.html">TELA INICIAL</a>
 
     </p>
     <form action="leituraterceiro2.php" method="POST">

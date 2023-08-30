@@ -18,7 +18,7 @@ $num_clientes = $query_clientes->num_rows;
 <h1>Lista de Transportadora</h1>
     <p> 
         <br>
-        <a href="login.html">TELA INICIAL</a>
+        <a href="../login.html">TELA INICIAL</a>
     </p>
     <form action="leituratrans2.php" method="POST">
     <br>    
@@ -38,7 +38,7 @@ $num_clientes = $query_clientes->num_rows;
     </form>
 
     <p>Estes são as transportadoras cadastradas no seu sistema:</p>
-    <table border="1" cellpadding="10">
+    <table border="1" cellpadding="5">
         <thead>
             <th>ID</th>
             <th>NOME</th>
@@ -46,10 +46,10 @@ $num_clientes = $query_clientes->num_rows;
             <th>TELEFONE</th>
             <th>EMAIL</th>
             <th>ENDERECO</th>
-            <th>ENTRADA</th>
             <th>PLACA</th>
             <th>MODELO</th>
             <th>COR</th>
+            <th>ENTRADA</th>
             <th>SAÍDA</th>
             <th>AÇÕES</th>
         </thead>

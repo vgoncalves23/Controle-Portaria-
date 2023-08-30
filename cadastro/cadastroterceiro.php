@@ -3,7 +3,7 @@
 if(count($_POST) > 0) {
 
   //Conexão com o banco
-    include('conexao2.php');
+    include('../conexoes/conexao2.php');
     
     $erro = false;
     $nome = $_POST['nome'];

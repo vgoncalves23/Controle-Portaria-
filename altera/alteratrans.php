@@ -6,7 +6,7 @@ $id = intval($_GET['id']);
 //Enquanto tiver postagem faça 
 if(count($_POST) > 0) {
     
-    include('conexao3.php');
+    include('../conexoes/conexao3.php');
     
     $erro = false;
     $nome = $_POST['nome'];
